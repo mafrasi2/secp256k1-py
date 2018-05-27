@@ -191,6 +191,7 @@ class build_clib(_build_clib):
             "--disable-dependency-tracking",
             "--with-pic",
             "--enable-module-recovery",
+            "--disable-openssl-tests",
             "--prefix",
             os.path.abspath(self.build_clib),
         ]
